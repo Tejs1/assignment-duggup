@@ -45,7 +45,9 @@ const config = {
 				card: {
 					DEFAULT: "hsl(var(--card) / <alpha-value>)",
 					foreground: "hsl(var(--card-foreground) / <alpha-value>)"
-				}
+				},
+				charcoal: "hsl(var(--charcoal-gray))",
+				electric: "hsl(var(--electric-blue))"
 			},
 			borderRadius: {
 				lg: "var(--radius)",
@@ -53,13 +55,8 @@ const config = {
 				sm: "calc(var(--radius) - 4px)"
 			},
 			boxShadow: {
-				"inner-lg": "0px 4px 0px hsl(var(--secondary))",
-				"inner-md": "inset 0 0 5px 0 hsl(var(--secondary))",
-				"inner-sm": "inset 0 0 3px 0 hsl(var(--secondary))",
-				"outer-lg": "0px 2px 0px hsl(var(--shadow))"
-			},
-			stroke: {
-				"neutral-800": "hsl(var(--secondary))"
+				"charcoal-lg": "0px 4px 0px hsl(var(--charcoal-gray))",
+				"navy-sm": "0px 2px 0px hsl(var(--navy-blue))"
 			},
 			fontFamily: {
 				inter: ["Inter"],

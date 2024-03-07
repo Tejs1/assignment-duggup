@@ -9,10 +9,11 @@ const buttonVariants = tv({
 			default: "bg-primary text-primary-foreground hover:bg-primary/90",
 			destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
 			outline:
-				"text-neutral-800 border border-border bg-background hover:bg-accent hover:text-accent-foreground inline-flex items-center px-[16px] relative flex-[0_0_auto]  rounded-[4px] border-solid shadow-inner-lg hover:shadow-outer-lg hover:border-accent group h-9 px-6 ",
+				"border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground",
 			secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
 			ghost: "hover:bg-accent hover:text-accent-foreground",
-			link: "text-primary underline-offset-4 hover:underline"
+			link: "text-primary underline-offset-4 hover:underline",
+			cta: "hover:shadow-navy-sm shadow-charcoal-lg text-charcoal hover:bg-electric hover:border-electric group relative inline-flex h-9 items-center rounded-[4px] border border-solid border-charcoal bg-background px-6 transition duration-300  ease-in-out hover:scale-105 hover:text-background group-hover:text-background"
 		},
 		size: {
 			default: "h-10 px-4 py-2",
