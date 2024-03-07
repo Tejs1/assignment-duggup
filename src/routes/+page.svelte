@@ -22,7 +22,7 @@
 	<div class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
 		<a href="/">
 			<div class="flex items-center justify-center">
-				<HeroLogo full={true} />
+				<HeroLogo full={true} class="fill-[#33333]" />
 			</div>
 		</a>
 
@@ -64,12 +64,12 @@
 					<a href="/" class="" aria-current="page">Learn</a>
 				</li>
 				<li>
-					<Button variant="cta">
+					<Button variant="cta" size="custom" class="">
 						<div class="text-charcoal flex w-full flex-row items-center justify-between">
 							<SvgPlus
-								class="hover:scale-120 stroke-charcoal origin-center group-hover:stroke-background"
+								class="hover:scale-120 stroke-charcoal fill-taint origin-center  group-hover:fill-none group-hover:stroke-background"
 							/>
-							<div class="text-accent-charcoal pl-3.5 group-hover:text-background">Post</div>
+							<div class="text-accent-charcoal pl-3 group-hover:text-background">Post</div>
 						</div>
 					</Button>
 				</li>

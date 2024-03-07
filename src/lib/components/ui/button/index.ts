@@ -13,13 +13,14 @@ const buttonVariants = tv({
 			secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
 			ghost: "hover:bg-accent hover:text-accent-foreground",
 			link: "text-primary underline-offset-4 hover:underline",
-			cta: "hover:shadow-navy-sm shadow-charcoal-lg text-charcoal hover:bg-electric hover:border-electric group relative inline-flex h-9 items-center rounded border border-solid border-charcoal bg-background px-6 transition duration-300  ease-in-out  hover:text-background group-hover:text-background"
+			cta: "hover:shadow-navy-sm shadow-charcoal-lg text-charcoal hover:bg-electric hover:border-electric group relative inline-flex items-center  border border-solid border-charcoal bg-background  transition duration-300  ease-in-out  hover:text-background group-hover:text-background active:shadow-charcoal-sm"
 		},
 		size: {
 			default: "h-10 px-4 py-2",
 			sm: "h-9 rounded-md px-3",
 			lg: "h-11 rounded-md px-8",
-			icon: "h-10 w-10"
+			icon: "h-10 w-10",
+			custom: "h-9 px-5 rounded"
 		}
 	},
 	defaultVariants: {
