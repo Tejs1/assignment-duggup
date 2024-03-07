@@ -64,6 +64,10 @@ const config = {
 				inter: ["Inter Regular"],
 				"inter-m": ["Inter Medium"],
 				"inter-b": ["Inter Bold"]
+			},
+			backgroundImage: {
+				"dotted-sm": `url('data:image/svg+xml,<svg width="4" height="2" viewBox="0 0 4 2" xmlns="http://www.w3.org/2000/svg"><rect x="0" y="0" width="100%" height="100%" fill="%23fafaff"/><circle cx="50%" cy="50%" r=".5" fill="%23525C69" /></svg>')`,
+				"footer-texture": "url('/img/footer-texture.png')"
 			}
 		}
 	}
