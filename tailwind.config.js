@@ -47,7 +47,8 @@ const config = {
 					foreground: "hsl(var(--card-foreground) / <alpha-value>)"
 				},
 				charcoal: "hsl(var(--charcoal-gray))",
-				electric: "hsl(var(--electric-blue))"
+				electric: "hsl(var(--electric-blue))",
+				taint: "hsl(var(--primary-background))"
 			},
 			borderRadius: {
 				lg: "var(--radius)",
@@ -56,6 +57,7 @@ const config = {
 			},
 			boxShadow: {
 				"charcoal-lg": "0px 4px 0px hsl(var(--charcoal-gray))",
+				"charcoal-sm": "0px 2px 0px hsl(var(--charcoal-gray))",
 				"navy-sm": "0px 2px 0px hsl(var(--navy-blue))"
 			},
 			fontFamily: {
