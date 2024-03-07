@@ -61,7 +61,7 @@ const config = {
 				"navy-sm": "0px 2px 0px hsl(var(--navy-blue))"
 			},
 			fontFamily: {
-				inter: ["Inter"],
+				inter: ["Inter Regular"],
 				"inter-m": ["Inter Medium"],
 				"inter-b": ["Inter Bold"]
 			}
