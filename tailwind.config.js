@@ -1,10 +1,8 @@
-import { fontFamily } from "tailwindcss/defaultTheme";
-
 /** @type {import('tailwindcss').Config} */
 const config = {
 	darkMode: ["class"],
 	content: ["./src/**/*.{html,js,svelte,ts}"],
-  safelist: ["dark"],
+	safelist: ["dark"],
 	theme: {
 		container: {
 			center: true,
@@ -54,11 +52,22 @@ const config = {
 				md: "calc(var(--radius) - 2px)",
 				sm: "calc(var(--radius) - 4px)"
 			},
+			boxShadow: {
+				"inner-lg": "0px 4px 0px hsl(var(--secondary))",
+				"inner-md": "inset 0 0 5px 0 hsl(var(--secondary))",
+				"inner-sm": "inset 0 0 3px 0 hsl(var(--secondary))",
+				"outer-lg": "0px 2px 0px hsl(var(--shadow))"
+			},
+			stroke: {
+				"neutral-800": "hsl(var(--secondary))"
+			},
 			fontFamily: {
-				sans: [...fontFamily.sans]
+				inter: ["Inter"],
+				"inter-m": ["Inter Medium"],
+				"inter-b": ["Inter Bold"]
 			}
 		}
-	},
+	}
 };
 
 export default config;
