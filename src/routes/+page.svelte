@@ -6,6 +6,8 @@
 	import SvgHome from "@/components/svg/Home.svelte";
 	import SvgLearn from "@/components/svg/Learn.svelte";
 	import SvgExplore from "@/components/svg/Explore.svelte";
+	import SvgLinkExternal from "@/components/svg/LinkExternal.svelte";
+	import DotSvg from "@/components/svg/Dots.svelte";
 
 	// import { onMount } from 'svelte';
 	// onMount(() => {
@@ -22,7 +24,7 @@
 </script>
 
 <nav
-	class="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between bg-dotted-sm bg-bottom bg-repeat-x p-4 text-charcoal"
+	class="mx-auto flex w-full flex-wrap items-center justify-between bg-dotted-sm bg-bottom bg-repeat-x py-4 text-charcoal"
 >
 	<a href="/">
 		<div class="flex items-center justify-center">
@@ -89,7 +91,7 @@
 				</a>
 			</li>
 		</ul>
-		<div class="flex w-full justify-between space-x-8">
+		<div class="flex w-full justify-between space-x-10">
 			<Button
 				variant="cta"
 				size="custom"
@@ -104,7 +106,7 @@
 			</Button>
 
 			<DropdownMenu.Root>
-				<DropdownMenu.Trigger>Open</DropdownMenu.Trigger>
+				<DropdownMenu.Trigger class="h-[52] w-[248px]">Open</DropdownMenu.Trigger>
 				<DropdownMenu.Content>
 					<DropdownMenu.Group>
 						<DropdownMenu.Label>My Account</DropdownMenu.Label>
@@ -120,14 +122,54 @@
 	</div>
 </nav>
 
-<header class=" ">
-	<div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-		<div class="flex items-center">
-			<img class="h-12 w-12 rounded-full" src="/path-to-your-profile-image.jpg" alt="Profile" />
-			<div class="ml-4">
-				<div class="text-lg font-semibold leading-7">Krishna Kiran</div>
-				<div class="text-sm leading-5 text-gray-500">Co-Founder and CEO at Duggup</div>
+<div class=" mx-auto flex w-full flex-row flex-wrap items-center justify-center text-charcoal">
+	<!-- 50px? not 48-->
+	<div class="mt-[50px] flex flex-col items-center font-inter">
+		<div
+			class=" h-[120px] w-[120px] rounded-full bg-[url(/img/Avatar2.png)] bg-cover bg-center ring-[5px] ring-ring-2 dark:ring-gray-500"
+		></div>
+		<!-- 120px ? not 128 -->
+		<!-- 10? 8 -->
+		<!-- ring 5 ? 4 -->
+		<div
+			class=" w-min py-[10px] text-center text-2xl font-bold leading-7 tracking-normal text-azure"
+		>
+			Krishna Kiran
+		</div>
+	</div>
+	<div class="mx-14 flex flex-col">
+		<div class="flex">
+			<div class="flex w-[592px] items-center">
+				<p>
+					Co-Founder and CEO at Duggup - Social network for people in tech. Ex-Amazon Head of
+					Engineering. I write hot-takes on building a business, shipping delightful products and
+					accelerating product and career growth.
+				</p>
+			</div>
+
+			<div class="flex flex-col items-end justify-center">
+				<img
+					class="h-9 w-9"
+					src="https://c.animaapp.com/3a5HOfLx/img/social-icons@2x.png"
+					alt="profile "
+				/>
+
+				<div>
+					<div class="text-right">Duggup</div>
+					<div class="text-right">Co-Founder and CEO</div>
+				</div>
+			</div>
+		</div>
+		<div class="flex justify-between">
+			<div><Button variant="cta">Followed</Button></div>
+			<div class="flex items-center">
+				<div class="flex items-center">
+					<div class="text-nowrap">My website</div>
+					<SvgLinkExternal />
+				</div>
+
+				<DotSvg />
 			</div>
 		</div>
 	</div>
-</header>
+</div>

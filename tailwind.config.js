@@ -46,9 +46,19 @@ const config = {
 					DEFAULT: "hsl(var(--card) / <alpha-value>)",
 					foreground: "hsl(var(--card-foreground) / <alpha-value>)"
 				},
+				"ring-2": "hsl(var(--ring-2))",
 				charcoal: "hsl(var(--charcoal-gray))",
 				electric: "hsl(var(--electric-blue))",
-				taint: "hsl(var(--primary-background))"
+				taint: "hsl(var(--primary-background))",
+				azure: "hsl(var(--azure-gray))",
+				"c-6": "var(--c-6)",
+				"color-tokens-content-neutral-primary-regular":
+					"var(--color-tokens-content-neutral-primary-regular)",
+				"colors-prerequisite-neutral-neutral-700": "var(--colors-prerequisite-neutral-neutral-700)",
+				"colors-prerequisite-neutral-neutral-800": "var(--colors-prerequisite-neutral-neutral-800)",
+				"colors-prerequisite-primary-primary-600": "var(--colors-prerequisite-primary-primary-600)",
+				"colors-prerequisite-white-and-black-white-1000":
+					"var(--colors-prerequisite-white-and-black-white-1000)"
 			},
 			borderRadius: {
 				lg: "var(--radius)",
