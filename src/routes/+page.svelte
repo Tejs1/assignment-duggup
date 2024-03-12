@@ -163,12 +163,94 @@
 		<div class="flex justify-between">
 			<div><Button variant="cta">Followed</Button></div>
 			<div class="flex items-center">
-				<div class="flex items-center">
-					<div class="text-nowrap">My website</div>
+				<div class="mr-4 flex items-center text-charcoal">
+					<div class="mr-1 text-nowrap">My website</div>
 					<SvgLinkExternal />
 				</div>
 
 				<DotSvg />
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="h-64 w-full">
+	<div class=" ml-12 flex flex-col">
+		<div class="flex flex-row">
+			<div class="bg-slate-400"><div class="mx-2 w-[191px]"></div></div>
+			<div class="w-[780px]">
+				<div class="mx-7 my-8 flex flex-row gap-9">
+					<div class="h-[224px] w-[344px] rounded-xl">
+						<div class="h-[136px] rounded-t-xl bg-[url('/img/steve.png')]"></div>
+						<div
+							class="border-cool h-[88px] rounded-b-xl border-x-[0.5px] border-b-[0.5px] bg-white"
+						>
+							<div class="text-onyx p-6 text-sm">
+								No amount of technology can convert a bad story into a good story.
+							</div>
+						</div>
+					</div>
+					<div class="h-[224px] w-[344px] rounded-xl">
+						<div class="h-[136px] rounded-t-xl bg-[url('/img/sam.png')]"></div>
+						<div
+							class="border-cool h-[88px] rounded-b-xl border-x-[0.5px] border-b-[0.5px] bg-white"
+						>
+							<div class="text-onyx p-6 text-sm">
+								Most people don't have original ideas. Here is how Sam Altman pushes himself to
+								have...
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="flex flex-row">
+			<div class="bg-slate-300"><div class="mx-2 w-[191px]"></div></div>
+			<div>
+				<div class="drop-shadow-sky mx-7 my-8 h-[84px] w-[720px] rounded-xl bg-white">
+					<div class="grid gap-1 px-5 py-4">
+						<h2 class="text-onyx font-inter-b text-xl font-bold leading-8">Co-Founder and CEO</h2>
+						<p class="text-slate font-inter text-xs font-normal leading-4">Full-time · Remote</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="flex flex-row">
+			<div class="bg-slate-400"><div class="mx-2 w-[191px]"></div></div>
+			<div class="w-[780px]">
+				<div class="mx-7 my-8 flex flex-row gap-9">
+					<div class="h-[224px] w-[344px] rounded-xl">
+						<div class="h-[136px] rounded-t-xl bg-[url('/img/desktop.png')]"></div>
+						<div
+							class="border-cool h-[88px] rounded-b-xl border-x-[0.5px] border-b-[0.5px] bg-white"
+						>
+							<div class="text-onyx p-6 text-sm">
+								Startup Lesson I am reflecting. Don't build for the "average person".
+							</div>
+						</div>
+					</div>
+					<div class="h-[224px] w-[344px] rounded-xl">
+						<div class="h-[136px] rounded-t-xl bg-[url('/img/map.png')]"></div>
+						<div
+							class="border-cool h-[88px] rounded-b-xl border-x-[0.5px] border-b-[0.5px] bg-white"
+						>
+							<div class="text-onyx h-full p-6 text-sm">
+								Your biggest regrets at 80 will be acts of omission.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="flex flex-row">
+			<div class="bg-slate-300"><div class="mx-2 w-[191px]"></div></div>
+			<div>
+				<div class="drop-shadow-sky mx-7 my-8 h-[84px] w-[720px] rounded-xl bg-white">
+					<div class="grid gap-1 px-5 py-4">
+						<h2 class="text-onyx font-inter-b text-xl font-bold leading-8">VP Engineering</h2>
+						<p class="text-slate font-inter text-xs font-normal leading-4">Full-time</p>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -51,6 +51,9 @@ const config = {
 				electric: "hsl(var(--electric-blue))",
 				taint: "hsl(var(--primary-background))",
 				azure: "hsl(var(--azure-gray))",
+				cool: "hsl(var(--cool-gray))",
+				onyx: "hsl(var(--onyx-black))",
+				slate: "hsl(var(--slate-gray))",
 				"c-6": "var(--c-6)",
 				"color-tokens-content-neutral-primary-regular":
 					"var(--color-tokens-content-neutral-primary-regular)",
@@ -69,6 +72,9 @@ const config = {
 				"charcoal-lg": "0px 4px 0px hsl(var(--charcoal-gray))",
 				"charcoal-sm": "0px 2px 0px hsl(var(--charcoal-gray))",
 				"navy-sm": "0px 2px 0px hsl(var(--navy-blue))"
+			},
+			dropShadow: {
+				sky: "0px 1px 2px  hsla(var(--shadow-color))"
 			},
 			fontFamily: {
 				inter: ["Inter Regular"],
