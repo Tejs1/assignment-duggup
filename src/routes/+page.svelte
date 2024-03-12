@@ -10,6 +10,7 @@
 	import DotSvg from "@/components/svg/Dots.svelte";
 	import BorderCompany from "@/components/svg/BorderCompany.svelte";
 	import BorderBlog from "@/components/svg/BorderBlog.svelte";
+	import ChevronDown from "lucide-svelte/icons/chevron-down";
 
 	// import { onMount } from 'svelte';
 	// onMount(() => {
@@ -93,7 +94,7 @@
 				</a>
 			</li>
 		</ul>
-		<div class="flex w-full justify-between space-x-10">
+		<div class="flex w-full items-center justify-between space-x-10">
 			<Button
 				variant="cta"
 				size="custom"
@@ -108,7 +109,18 @@
 			</Button>
 
 			<DropdownMenu.Root>
-				<DropdownMenu.Trigger class="h-[52] w-[248px]">Open</DropdownMenu.Trigger>
+				<DropdownMenu.Trigger class="">
+					<div class="flex items-center gap-3">
+						<div
+							class="ml-4 flex h-12 w-12 items-center justify-center rounded-full border-[0.5px] border-charcoal"
+						>
+							<img src="/img/Image1.png" alt="" class=" rounded-full" />
+						</div>
+
+						<div class="font-inter-m text-xl/[20px] font-medium text-charcoal">Krishna Kiran</div>
+						<ChevronDown />
+					</div>
+				</DropdownMenu.Trigger>
 				<DropdownMenu.Content>
 					<DropdownMenu.Group>
 						<DropdownMenu.Label>My Account</DropdownMenu.Label>
@@ -161,10 +173,10 @@
 		<div class="flex justify-between pt-5">
 			<div><Button variant="cta" class=" px-6 text-sm" size="custom">Followed</Button></div>
 			<div class="flex items-center">
-				<div class="mr-4 flex items-center text-charcoal">
+				<a class="mr-4 flex items-center text-charcoal" href="/">
 					<div class="mr-1 text-nowrap text-sm">My website</div>
 					<SvgLinkExternal />
-				</div>
+				</a>
 
 				<DotSvg />
 			</div>
