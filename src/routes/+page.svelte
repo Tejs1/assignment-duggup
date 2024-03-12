@@ -8,6 +8,8 @@
 	import SvgExplore from "@/components/svg/Explore.svelte";
 	import SvgLinkExternal from "@/components/svg/LinkExternal.svelte";
 	import DotSvg from "@/components/svg/Dots.svelte";
+	import BorderCompany from "@/components/svg/BorderCompany.svelte";
+	import BorderBlog from "@/components/svg/BorderBlog.svelte";
 
 	// import { onMount } from 'svelte';
 	// onMount(() => {
@@ -132,12 +134,12 @@
 		<!-- 10? 8 -->
 		<!-- ring 5 ? 4 -->
 		<div
-			class=" w-min py-[10px] text-center text-2xl font-bold leading-7 tracking-normal text-azure"
+			class=" mb-[19px] w-min py-[10px] text-center text-2xl font-bold leading-7 tracking-normal text-azure"
 		>
 			Krishna Kiran
 		</div>
 	</div>
-	<div class="mx-14 flex flex-col">
+	<div class="mx-14 mr-[151px] flex flex-col">
 		<div class="flex">
 			<div class="flex w-[592px] items-center">
 				<p>
@@ -174,10 +176,15 @@
 	</div>
 </div>
 
-<div class="h-64 w-full">
+<div class=" w-full">
 	<div class=" ml-12 flex flex-col">
 		<div class="flex flex-row">
-			<div class="bg-slate-400"><div class="mx-2 w-[191px]"></div></div>
+			<div class="w-[200px] bg-slate-400">
+				<div class=" flex items-center justify-end gap-5">
+					<div class="text-slate pt-1 text-xs">Dec 2023</div>
+					<BorderBlog />
+				</div>
+			</div>
 			<div class="w-[780px]">
 				<div class="mx-7 my-8 flex flex-row gap-9">
 					<div class="h-[224px] w-[344px] rounded-xl">
@@ -205,7 +212,22 @@
 			</div>
 		</div>
 		<div class="flex flex-row">
-			<div class="bg-slate-300"><div class="mx-2 w-[191px]"></div></div>
+			<div class="w-[200px] bg-slate-300">
+				<div class=" flex items-center justify-end gap-5">
+					<div class="text-slate flex flex-col items-end justify-end pt-1 text-xs">
+						<div
+							class="mb-2 h-12 w-12 bg-[url('/img/CompanyDuggupIcon.png')] bg-contain bg-center bg-no-repeat"
+						></div>
+						<div class="flex flex-col items-end justify-end">
+							<div class="text-onyx mb-1 font-inter-b text-base font-bold">Duggup</div>
+							<p class="text-slate mb-0.5 font-inter text-xs font-normal">San Francisco Bay Area</p>
+							<p class="text-slate font-inter text-xs font-normal">Joined</p>
+							<p class="text-slate font-inter text-xs font-normal">Nov 2023</p>
+						</div>
+					</div>
+					<BorderCompany />
+				</div>
+			</div>
 			<div>
 				<div class="drop-shadow-sky mx-7 my-8 h-[84px] w-[720px] rounded-xl bg-white">
 					<div class="grid gap-1 px-5 py-4">
@@ -216,7 +238,12 @@
 			</div>
 		</div>
 		<div class="flex flex-row">
-			<div class="bg-slate-400"><div class="mx-2 w-[191px]"></div></div>
+			<div class="w-[200px] bg-slate-400">
+				<div class=" flex items-center justify-end gap-5">
+					<div class="text-slate pt-1 text-xs">Dec 2023</div>
+					<BorderBlog />
+				</div>
+			</div>
 			<div class="w-[780px]">
 				<div class="mx-7 my-8 flex flex-row gap-9">
 					<div class="h-[224px] w-[344px] rounded-xl">
@@ -243,7 +270,22 @@
 			</div>
 		</div>
 		<div class="flex flex-row">
-			<div class="bg-slate-300"><div class="mx-2 w-[191px]"></div></div>
+			<div class="w-[200px] bg-slate-300">
+				<div class=" flex items-center justify-end gap-5">
+					<div class="text-slate flex flex-col items-end justify-end pt-1 text-xs">
+						<div
+							class="mb-2 h-12 w-12 bg-[url('/img/CompanyBetterupIcon.png')] bg-contain bg-center bg-no-repeat"
+						></div>
+						<div class="flex flex-col items-end justify-end">
+							<div class="text-onyx mb-1 font-inter-b text-base font-bold">BetterUp</div>
+							<p class="text-slate mb-0.5 font-inter text-xs font-normal">San Francisco Bay Area</p>
+							<p class="text-slate font-inter text-xs font-normal">Joined</p>
+							<p class="text-slate font-inter text-xs font-normal">Sep 2022</p>
+						</div>
+					</div>
+					<BorderCompany />
+				</div>
+			</div>
 			<div>
 				<div class="drop-shadow-sky mx-7 my-8 h-[84px] w-[720px] rounded-xl bg-white">
 					<div class="grid gap-1 px-5 py-4">
