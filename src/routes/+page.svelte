@@ -126,7 +126,7 @@
 
 <div class=" mx-auto flex w-full flex-row flex-wrap items-center justify-center text-charcoal">
 	<!-- 50px? not 48-->
-	<div class="mt-[50px] flex flex-col items-center font-inter">
+	<div class="mt-[44px] flex flex-col items-center font-inter">
 		<div
 			class=" h-[120px] w-[120px] rounded-full bg-[url(/img/Avatar2.png)] bg-cover bg-center ring-[5px] ring-ring-2 dark:ring-gray-500"
 		></div>
@@ -134,14 +134,14 @@
 		<!-- 10? 8 -->
 		<!-- ring 5 ? 4 -->
 		<div
-			class=" mb-[19px] w-min py-[10px] text-center text-2xl font-bold leading-7 tracking-normal text-azure"
+			class="  w-min pb-[18px] pt-[16px] text-center text-2xl font-bold leading-7 tracking-normal text-azure"
 		>
 			Krishna Kiran
 		</div>
 	</div>
-	<div class="mx-14 mr-[151px] flex flex-col">
-		<div class="flex">
-			<div class="flex w-[592px] items-center">
+	<div class="mx-14 flex flex-col">
+		<div class="flex gap-32">
+			<div class="flex w-[584px] items-start text-sm leading-6">
 				<p>
 					Co-Founder and CEO at Duggup - Social network for people in tech. Ex-Amazon Head of
 					Engineering. I write hot-takes on building a business, shipping delightful products and
@@ -150,23 +150,19 @@
 			</div>
 
 			<div class="flex flex-col items-end justify-center">
-				<img
-					class="h-9 w-9"
-					src="https://c.animaapp.com/3a5HOfLx/img/social-icons@2x.png"
-					alt="profile "
-				/>
+				<img class="h-9 w-9" src="/img/CompanyDuggupIcon.png" alt="profile " />
 
-				<div>
-					<div class="text-right">Duggup</div>
-					<div class="text-right">Co-Founder and CEO</div>
+				<div class="mt-2">
+					<div class="text-right font-inter-b text-base leading-5 text-black">Duggup</div>
+					<div class="text-slate mt-1 text-right text-sm leading-[14px]">Co-Founder and CEO</div>
 				</div>
 			</div>
 		</div>
-		<div class="flex justify-between">
-			<div><Button variant="cta">Followed</Button></div>
+		<div class="flex justify-between pt-5">
+			<div><Button variant="cta" class=" px-6 text-sm" size="custom">Followed</Button></div>
 			<div class="flex items-center">
 				<div class="mr-4 flex items-center text-charcoal">
-					<div class="mr-1 text-nowrap">My website</div>
+					<div class="mr-1 text-nowrap text-sm">My website</div>
 					<SvgLinkExternal />
 				</div>
 
@@ -187,7 +183,7 @@
 			</div>
 			<div class="w-[780px]">
 				<div class="mx-7 my-8 flex flex-row gap-9">
-					<div class="h-[224px] w-[344px] rounded-xl">
+					<div class=" w-[344px] rounded-xl">
 						<div class="h-[136px] rounded-t-xl bg-[url('/img/steve.png')]"></div>
 						<div
 							class="border-cool h-[88px] rounded-b-xl border-x-[0.5px] border-b-[0.5px] bg-white"
@@ -197,7 +193,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="h-[224px] w-[344px] rounded-xl">
+					<div class=" w-[344px] rounded-xl">
 						<div class="h-[136px] rounded-t-xl bg-[url('/img/sam.png')]"></div>
 						<div
 							class="border-cool h-[88px] rounded-b-xl border-x-[0.5px] border-b-[0.5px] bg-white"
@@ -246,7 +242,7 @@
 			</div>
 			<div class="w-[780px]">
 				<div class="mx-7 my-8 flex flex-row gap-9">
-					<div class="h-[224px] w-[344px] rounded-xl">
+					<div class=" w-[344px] rounded-xl">
 						<div class="h-[136px] rounded-t-xl bg-[url('/img/desktop.png')]"></div>
 						<div
 							class="border-cool h-[88px] rounded-b-xl border-x-[0.5px] border-b-[0.5px] bg-white"
@@ -256,7 +252,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="h-[224px] w-[344px] rounded-xl">
+					<div class=" w-[344px] rounded-xl">
 						<div class="h-[136px] rounded-t-xl bg-[url('/img/map.png')]"></div>
 						<div
 							class="border-cool h-[88px] rounded-b-xl border-x-[0.5px] border-b-[0.5px] bg-white"
